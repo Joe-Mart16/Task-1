@@ -83,7 +83,7 @@ header {
 
 .adv-section .adv-img {
   padding: 0;
-  background-color: hsl(206, 84%, 24%);
+  background-color: rgb(9, 62, 103);
   width: 120px;
   height: 120px;
   border-radius: 32px;
@@ -127,7 +127,7 @@ header {
 }
 
 .free-plan {
-  background-color: hsl(206, 84%, 24%);
+  background-color: rgb(9, 62, 103);
   border-radius: 10px;
   height: 360px;
   padding: 32px;
@@ -148,6 +148,10 @@ header {
 .free-plan p {
   width: 400px;
   color: white;
+}
+
+.free-check {
+  color: #3ee9e5;
 }
 
 .free-plan h1 {
@@ -226,7 +230,7 @@ form h1 {
   padding: 16px;
   border-radius: 64px;
   font-weight: 700;
-  background-color: hsl(206, 84%, 24%);
+  background-color: rgb(9, 62, 103);
   color: white; 
 }
 
@@ -244,4 +248,125 @@ form h1 {
   border: none;
   font-weight: 700;
   width: 160px;
+}
+
+@media screen and (min-device-width: 599px) and (max-device-width:1000px) {
+  body {
+    width: 100%;
+  }
+
+  .logo {
+    margin-left: 64px;
+  }
+
+  header {
+    background-position: -145%, 230%;
+  }
+
+  .head-div {
+    width: fit-content;
+  }
+
+  .head-div h1 {
+    font-size: 32px;
+    width: 400px;
+    line-height: 100%;
+    text-align: center;
+  }
+
+  .head-div p {
+    font-size: 19px;
+    width: 400px;
+  }
+
+  .adv-section {
+    flex-direction: column;
+  }
+
+  .adv-section h1 {
+    margin-bottom: 16px;
+    font-size: 27px;
+  }
+
+  .adv-section p {
+    font-size: 19px;
+    width: 370px;
+  }
+
+  .adv-section img {
+    width: 100px;
+  }
+
+  .adv-section .adv-img {
+    padding: 0;
+    margin-right: 48px;
+    border-radius: 64px;
+    height: 160px;
+    width: 160px;
+  }
+
+  .adv-text {
+    text-align: left;
+  }
+
+  .adv-div {
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  .pricing-plans {
+    display: block;
+    margin: 0 112px;
+  }
+
+  form {
+    background-image: url(./images/bg-footer-squiggle.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+
+  .mail {
+    display: flex;
+    justify-content: center;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  form h1 {
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 25px;
+    padding-top: 0;
+    padding-bottom: 16px;
+  }
+}
+
+
+@media screen and (min-device-width: 200px) and (max-device-width:599) {
+  body {
+    width: 100%;
+  }
+
+  .logo {
+    display: grid;
+    margin: 48px auto;
+  }
+
+  .logo img {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  header {
+    display: block;
+    text-align: center;
+    background-size: 50%;
+    background-position: 0% 0%, 100% 0%;
+    width: 100%;
+    padding-top: 240px;
+    background-repeat: no-repeat;
+  }
 }
