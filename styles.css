@@ -151,7 +151,18 @@ header {
 }
 
 .free-check {
-  color: #3ee9e5;
+  background-color: #3ee9e5;
+  height: 12px;
+  width: 13px;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-image: url("/images/icon-check.svg");
+  mask-image: url("./images/icon-check.svg");
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  margin: 0 32px 0 0;
 }
 
 .free-plan h1 {
