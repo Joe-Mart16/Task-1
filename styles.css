@@ -375,9 +375,128 @@ form h1 {
     display: block;
     text-align: center;
     background-size: 50%;
-    background-position: 0% 0%, 100% 0%;
+    background-position: -345% 230%;
     width: 100%;
     padding-top: 240px;
     background-repeat: no-repeat;
   }
+
+  .head-div {
+    background-image: none;
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    place-items: center;
+  }
+
+  .head-div h1 {
+    font-size: 32px;
+    line-height: 100%;
+    width: 70%;
+    text-align: center;
+    margin-top: -64px;
+  }
+
+  .head-div p {
+    font-size: 16px;
+    width: 90%;
+  }
+
+  .adv-section {
+    display: grid;
+    justify-content: center;
+    margin-top: 32px;
+  }
+
+  .adv-section h1 {
+    font-size: 22px;
+    text-align: center;
+    width: fit-content;
+    margin: 16px auto;
+  }
+
+  .adv-section p {
+    font-size: 16px;
+    width: fit-content;
+    text-align: center;
+    margin: 0 16px;
+  }
+
+  .adv-section img {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .adv-section .adv-img {
+    padding: 0;
+    width: 0 auto;
+    height: 120px;
+    border-radius: 43.2;
+    margin: 16px auto;
+  }
+
+  .adv-div{
+    display: flex;
+    flex-direction: column;
+    margin: 64px auto;
+    place-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .adv-div2 {
+    margin: 0 auto;
+  }
+  
+  .pricing {
+    display: block;
+  }
+
+  .pricing h1 {
+    width: fit-content;
+  }
+
+  .pricing-plans {
+    display: block;
+  }
+
+  .free-plan {
+    border: 10px;
+    height: fit-content;
+    padding: 16px;
+  }
+
+  .free-plan h2 {
+    margin-bottom: 16px;
+  }
+
+  .free-plan p {
+    width: fit-content;
+  }
+
+  .free-plan img {
+    margin-bottom: 8px;
+  }
+
+  .free-plan h1 {
+    width: fit-content;
+  }
+
+  .paid-plan {
+    background-color: rgb(106, 231, 231);
+    color: #080c20;
+  }
+
+  .paid-plan h2 {
+    margin-bottom: 16px;
+    color: #080c20;
+  }
+
+  .paid-plan p {
+    width: fit-content;
+    color: #080c20;
+  }
+
 }
